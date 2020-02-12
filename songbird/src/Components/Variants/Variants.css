@@ -1,0 +1,47 @@
+.variants {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  max-width: 49%;
+  background: #faafa0;
+  height: 320px;
+  border-radius: 10px;
+  overflow: hidden;  
+}
+
+.variant {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+
+.variant > span {
+  color: white;
+}
+
+.variant:hover {
+  background: #b06d81;
+}
+
+.grey {
+  background: grey;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0px 12px 0 25px;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+@media (max-width: 750px) {
+  .variants {
+    max-width: initial;
+  }
+}
