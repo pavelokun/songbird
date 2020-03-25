@@ -1,15 +1,15 @@
 .button {
   cursor: pointer;
-  border: 1px solid grey;
+  border: 1px solid transparent;
   width: 100%;
   margin-top: 20px;
   text-align: center;
   vertical-align: middle;
   border-radius: 5px;
   height: 29px;
-    color: white;
-    font-size: larger;
-    font-weight: bold;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .button-active {

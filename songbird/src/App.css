@@ -9,12 +9,12 @@
 }
 
 .hidden {
-  /* display: none; */
+  display: none;
   visibility: hidden;
 }
 
 .visible {
-  /* display: block; */
+  display: block;
   visibility: visible;
 }
 
@@ -37,7 +37,7 @@
   position: absolute;
   background: #fae9e7;
   width: 100%;
-  height: 100vw;
+  height: 100%;
   left: 0;
   top: 0;
   overflow: hidden;
@@ -55,4 +55,8 @@
 
 .end_image-hidden {
   display: none;
+}
+
+.App {
+  position: relative;
 }
